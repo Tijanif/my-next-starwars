@@ -25,7 +25,7 @@ const Vehicles = ({ data }) => {
           const id = urlArr[urlArr.length - 2];
           return (
             <div className='mx-2 mb-2 bg-gray-700 py-2 px-4 rounded-md text-white'>
-              <Link href={`/vehicles${id}`}>{vehicle.name}</Link>
+              <Link href={`/vehicles/${id}`}>{vehicle.name}</Link>
             </div>
           );
         })}
