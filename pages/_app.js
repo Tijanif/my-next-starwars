@@ -5,7 +5,9 @@ import Layout from '../components/Layout';
 function MyApp({ Component, pageProps }) {
   return (
     <Layout>
-      <Component {...pageProps} />{' '}
+      <div className='w-5/6 m-auto'>
+        <Component {...pageProps} />{' '}
+      </div>
     </Layout>
   );
 }
