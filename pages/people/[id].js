@@ -36,7 +36,7 @@ const People = ({ data }) => {
         {data.name}
       </p>
       <p>
-        <span className='font-semibold'>height: </span>
+        <span className='font-semibold'>Height: </span>
         {data.height}
       </p>
       <p>
