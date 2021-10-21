@@ -33,15 +33,15 @@ const Planets = ({ data }) => {
       <h1 className='text-center text-xl font-semibold my-6'>{`Planet ${data.name}`}</h1>
       <p>
         <span className='font-semibold'>Name: </span>
-        {data.name}
+        {data.name.toUpperCase()}
       </p>
       <p>
         <span className='font-semibold'>Climate: </span>
-        {data.climate}
+        {data.climate.toUpperCase()}
       </p>
       <p>
         <span className='font-semibold'>Terrain: </span>
-        {data.terrain}
+        {data.terrain.toUpperCase()}
       </p>
     </div>
   );
