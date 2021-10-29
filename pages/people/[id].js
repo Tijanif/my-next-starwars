@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export async function getStaticProps(context) {
   const id = context.params.id;
 
@@ -42,6 +43,22 @@ const People = ({ data }) => {
       <p>
         <span className='font-semibold'>Gender: </span>
         {data.gender}
+      </p>
+      <p>
+        <span className='font-semibold'>Hair Color: </span>
+        {data.hair_color}
+      </p>
+      <p>
+        <span className='font-semibold'>Skin Color: </span>
+        {data.skin_color}
+      </p>
+      <p>
+        <span className='font-semibold'>Eye Color: </span>
+        {data.eye_color}
+      </p>
+      <p>
+        <span className='font-semibold'>Birth Year: </span>
+        {data.birth_year}
       </p>
     </div>
   );
